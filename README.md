@@ -3,7 +3,7 @@
 ## Description
 
 Web game working like the classic board game.
-Project developed during my first year at [Web@cademie](http://webacademie.org/).
+`<addr>` Project developed during my first year at [Web@cademie](http://webacademie.org/).
 
 ## Features
 
