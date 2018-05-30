@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connect 4</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Archivo+Black|Bungee&effect=fire-animation">
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-menu-center">
+        <div class="main-menu-container">
+            <h2>PUISSANCE<span class="four">4</span></h2>
+            <div class="main-menu-body">
+                <label>
+                    <i class="fas fa-user"></i>
+                    <input type="radio" name="mode" checked>
+                </label>
+                <label>
+                    <i class="fas fa-users"></i>
+                    <input type="radio" name="mode">
+                </label>
+                <input type="color" name="p1-color">
+                <input type="color" name="p2-color">
+                <label>
+                    <i class="fas fa-arrows-alt-h"></i>
+                    <input type="text" name="row" value="6">
+                </label>
+                <label>
+                    <i class="fas fa-arrows-alt-v"></i>
+                    <input type="text" name="col" value="7">
+                </label>
+
+                <button class="start-button"><i class="fas fa-play"></i></button>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
