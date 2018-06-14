@@ -1,6 +1,6 @@
 # Connect 4
 
-Web game working like the classic board game.</br>
+It plays like the board game.</br>
 Project developed during my first year at [Web@cademie](http://webacademie.org/).
 
 ## Features
